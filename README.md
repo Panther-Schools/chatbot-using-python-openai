@@ -1,4 +1,4 @@
-# chatbot using python openai
+# 1. Chatbot using python & openai
 This repo contains the codebase for the chatbot application developed using python and OPENAI
 
 ## Prerequisite
@@ -54,3 +54,24 @@ conda activate venv
     if __name__ == "__main__":
         chat_bot()
 ```
+
+# 2. ChatBot Using Python & groq
+
+## Python library Dependency
+
+- groq
+- python-dotenv
+
+## Create Virtual Environent
+
+We are going to use anaconda for creating the virtual environment. You can download anaconda from here.
+use below command to create the virtual environment
+```
+conda create -p venv python==3.12
+```
+After you have created the virtual environment you need to activate the virtul environemnt. 
+To activate the environment use below command
+```
+conda activate venv
+```
+## Complete Code
